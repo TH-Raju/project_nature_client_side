@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        drop: "drop 6s infinite"
+        drop: "drop 9s infinite"
       },
       keyframes: {
         drop: {
