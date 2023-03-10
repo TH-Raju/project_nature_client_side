@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        drop: "drop 4s infinite"
+        drop: "drop 6s infinite"
       },
       keyframes: {
         drop: {
@@ -18,10 +18,10 @@ module.exports = {
             opacity: "1",
           },
           "70%": {
-            opacity: "1"
+            opacity: "0.7"
           },
           "100%": {
-            transform: "translateY(0)",
+            transform: "translateY(10)",
             opacity: "0"
           }
         }
